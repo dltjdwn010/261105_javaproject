@@ -24,11 +24,12 @@ public class Exam01 {
 			count++;
 			if (user > random) System.out.println("Down");
 			if (user < random) System.out.println("Up");
-			if (user == random) System.out.println("정답");
 			c--;
-			if (c != 0) {
-				System.out.println("남은 횟수 : " + c);
-			}else {
+			if (user == random) System.out.println("정답");
+			
+			if (c != 0) {System.out.println("남은 횟수 : " + c);}
+			
+			else {
 				System.out.println("실패했습니다");
 				break;
 			}
