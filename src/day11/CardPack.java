@@ -39,10 +39,10 @@ public class CardPack {
 		}
 	}
 	public void cardShare(int num) {
-		pack[num].print();
+//		pack[num].print();
 		share[cnt]=pack[num];
 		cnt++;
-		
+		System.out.println(share[cnt]);
 		
 	}
 	public void cardRank(int n,int n1, int n2, int n3) {
