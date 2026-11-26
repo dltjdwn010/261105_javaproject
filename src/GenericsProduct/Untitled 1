@@ -1,0 +1,33 @@
+Generics 프로그램 kiosk
+
+class
+Product 
+ - 멤버변수 : menu, price
+Order extends Product
+ - 멤버변수 : menu, price, count, total
+ 
+ProdeuctController
+ - 멤버변수 : 메뉴를 저장하는 리스트, 주문을 저장하는 리스트
+ - 메서드
+  1. 메뉴추가
+     - 기본 메뉴
+  2. 메뉴출력
+  3. 주문
+  4. 주문내역 출력 (영수증 출력)
+  
+  
+ProductMain
+ - 1. 메뉴추가 | 2. 메뉴보기 | 3.제품주문 | 4.주문내역 보기 | 5. 종료
+ 
+ 
+ 
+ 
+ 메뉴 추가 insertMenu
+  - 메뉴 이름 입력, 가격 입력 후 list에 저장
+ 메뉴 보기 menuPrint
+  - list에 저장되어있는 메뉴 출력
+ 제품 주문 orderMenu
+  - list에 저장되어있는 key 이름 선택 후 갯수 입력
+   후 계산 => 결과 order 리스트에 저장
+ 주문내역 보기 orderPrint
+  - orderList에 저장되어있는 값 출력
